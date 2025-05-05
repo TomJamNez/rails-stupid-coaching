@@ -1,0 +1,24 @@
+
+<div class="container">
+<h1 class="mb-3">Stupid Coaching</h1>
+
+
+<div class="card  mb-3">
+  <div class="card-body">
+    <p><strong><%=params[:question] %></Strong></p>
+    <p><em>-You</em></p>
+  </div>
+</div>
+
+<div class="card mb-3">
+  <div class="card-body">
+    <p><strong><%= @coach %></Strong></p>
+    <p><em>-Your coach</em></p>
+  </div>
+</div>
+
+
+<%= link_to "Ask another question", ask_path %>
+
+
+</div>
